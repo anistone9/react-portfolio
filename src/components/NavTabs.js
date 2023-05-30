@@ -5,7 +5,7 @@ const styles = {
   navtabsStyle: {
     background: 'primary',
     justifyCenter: 'flex-left',
-    align: 'right',
+    justifyContent: 'flex-end',
   },
 };
 
