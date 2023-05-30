@@ -1,0 +1,13 @@
+.navtabs {
+    background: #776472;
+    height: 60px;
+    text-align: right;
+}
+
+.navtabs a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+}
