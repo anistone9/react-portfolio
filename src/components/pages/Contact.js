@@ -4,6 +4,19 @@ import '../../styles/Form.css';
 // import helper function to check if the email entered is valid
 import { validateEmail } from '../../utils/helpers';
 
+const styles = {
+    heading: {
+        fontSize: '1.2rem',
+        padding: '0',
+        minHeight: 50,
+        lineHeight: 3.5,
+    },
+    body: {
+      margin: 0,
+      padding: 20,
+    },
+}
+
 function Form() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -42,7 +55,7 @@ function Form() {
     }
 
     return (
-        <div>
+        <div style={styles.body}>
             <h2>Contact me</h2>
             <form className="form">
                 <label>Name</label>

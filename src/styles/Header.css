@@ -1,5 +1,5 @@
 .header {
-    background: #776472;
+    background: #343a40;
     height: 200px;
     text-align: right;
 }
@@ -8,6 +8,6 @@
     margin: 0;
     padding-top: 75px;
     text-align: center;
-    color: whitesmoke;
+    color: #f8f9fa;
     font-size: 3rem;
 }

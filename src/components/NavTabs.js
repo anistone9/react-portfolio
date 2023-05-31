@@ -13,7 +13,6 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <ul className="nav navtabs" style={styles.navtabsStyle}>
-        <li className="nav navtabs" style={styles.navtabsStyle}>Ani Toal</li>
         <li className="nav-item">
           <a
             href="#about"

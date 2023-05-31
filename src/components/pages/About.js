@@ -6,7 +6,6 @@ const styles = {
         padding: '0',
         minHeight: 50,
         lineHeight: 3.5,
-        color: '#fbfbfb',
     },
     body: {
       margin: 0,

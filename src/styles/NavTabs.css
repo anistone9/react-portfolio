@@ -1,11 +1,11 @@
 .navtabs {
-    background: #776472;
-    height: 60px;
+    background: #343a40;
+    height: 100px;
     text-align: right;
 }
 
 .navtabs a {
-    color: white;
+    color: #f8f9fa;
     font-size: 1.3rem;
     text-decoration: none;
     margin: 5px;

@@ -7,7 +7,9 @@ import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Header from './Header';
 import Footer from './Footer';
-import Card from './Card';
+import Project from './Project';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'holderjs';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -32,7 +34,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className=".bg-dark.bg-gradient">
             {/* pass the currentPage from state and the function to update it */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {/*call the renderPage method, which will return a component */}
