@@ -59,7 +59,7 @@ To use this application, open the integrated terminal and run npm i (install).
 Next, run npm start. The page will automatically open in the browser.                 
 
 ## Deployed app   
-
+https://anistone9.github.io/react-portfolio/
 
 ## Credits   
 University of Arizona Coding Bootcamp resources (class activities and examples).    
