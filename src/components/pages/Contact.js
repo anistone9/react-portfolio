@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import '../../styles/Form.css';
+import {
+    MDBBtn
+} from 'mdb-react-ui-kit';
 
 // import helper function to check if the email entered is valid
 import { validateEmail } from '../../utils/helpers';
@@ -12,8 +15,8 @@ const styles = {
         lineHeight: 3.5,
     },
     body: {
-      margin: 0,
-      padding: 20,
+        margin: 0,
+        padding: 20,
     },
 }
 
@@ -73,15 +76,26 @@ function Form() {
                     onChange={handleInputChange}
                     type="email"
                 />
-                <label>Message</label>
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    style={{height: 200}}
-                />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+
+
+                <div className="form-group">
+                    <label htmlFor="exampleFormControlTextarea1">Message</label>
+                    <textarea
+                        className="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="5"
+                        onChange={handleInputChange}
+                    />
+                </div>
+
+                <div>
+                    <br></br>
+                </div>
+
+                <MDBBtn type='submit' className='mb-4' block onClick={handleFormSubmit}>
+                    Submit
+                </MDBBtn>
+
             </form>
             {errorMessage && (
                 <div>
@@ -92,5 +106,6 @@ function Form() {
     );
 };
 export default Form;
+
 
 

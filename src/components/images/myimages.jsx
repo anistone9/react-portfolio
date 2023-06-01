@@ -6,7 +6,8 @@ import image5 from './image5.png';
 import image6 from './image6.png';
 import image11 from './image11.png';
 import image42 from './image42.png';
+import Profile from './Profile.JPG';
 
-const Images = [image1, image2, image3, image4, image5, image6, image11, image42];
+const Images = [image1, image2, image3, image4, image5, image6, image11, image42, Profile];
 
 export default Images;

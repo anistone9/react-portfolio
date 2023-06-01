@@ -8,8 +8,16 @@
 body {
   background-color: #212529;
   color: #f8f9fa;
+  margin-bottom: 90px;
 }
 
 h2 {
   margin-top: 15;
+}
+
+footer {
+  position: absolute;
+  bottom: 20;
+  width: 100%;
+  height: 100px;
 }

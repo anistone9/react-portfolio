@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'font-awesome/css/font-awesome.min.css';
 import 'holderjs';
+import { CDBFooter } from 'cdbreact';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');

@@ -1,39 +1,38 @@
 import React from 'react';
 import {
-    MDBFooter,
-    MDBContainer,
-    MDBCol,
-    MDBRow,
-    MDBIcon,
-    MDBBtn
+  MDBFooter,
+  MDBContainer,
+  MDBCol,
+  MDBRow
 } from 'mdb-react-ui-kit';
 
-//import 'mdbreact/dist/css/mdb.css';
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+export const Footer = () => {
+  return (
+    <MDBFooter bgColor='dark' className='text-center fixed-bottom'>
+    <MDBContainer className='p-4'>
+      <MDBRow>
+        <MDBCol className='mb-4 mb-md-0'>
+          <ul className='list-unstyled mb-0'>
+            <li>
+              <a href='https://github.com/anistone9' className='text-light'>
+                Github
+              </a>
+            </li>
+          </ul>
 
-function Footer() {
-    return (
-        <MDBFooter className='bg-dark text-center text-white fixed-bottom'>
-            <MDBContainer className='p-4 pb-0'>
-                <section className='mb-4'>
+          <ul className='list-unstyled mb-0'>
+            <li>
+              <a href='https://www.linkedin.com/in/anistonev/' className='text-light'>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
 
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='google' />
-                    </MDBBtn>
-
-                    <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/anistonev/' role='button'>
-                        <MDBIcon fab icon='linkedin-in' />
-                    </MDBBtn>
-
-                    <MDBBtn outline color="light" floating className='m-1' href='https://github.com/anistone9' role='button'>
-                        <MDBIcon fab icon='github' />
-                    </MDBBtn>
-
-                </section>
-            </MDBContainer>
-        </MDBFooter>
-    )
-}
+  </MDBFooter>
+  );
+};
 
 export default Footer;
