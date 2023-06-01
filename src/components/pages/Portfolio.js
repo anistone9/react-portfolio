@@ -49,8 +49,8 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     Travel Blog with Pet-Friendly and Family-Friendly filters, email share options, comments, image upload, as well as like buttons
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/LL8719/Travel-Blog'>Github</MDBCardLink>
-                                <MDBCardLink href='#https://passport-adventures.herokuapp.com/homepage'>Deployed App</MDBCardLink>
+                                <MDBCardLink href='https://github.com/LL8719/Travel-Blog'>Github</MDBCardLink>
+                                <MDBCardLink href='https://passport-adventures.herokuapp.com/homepage'>Deployed App</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -66,8 +66,8 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     Tech Job Search App with options and filters for remote jobs, full-time and part-time jobs, fullstack vs frontend vs backend.
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/MacaroniKetchup/Webdev-Remote-Job-Search-App'>Github</MDBCardLink>
-                                <MDBCardLink href='#https://macaroniketchup.github.io/Webdev-Remote-Job-Search-App/'>Deployed App</MDBCardLink>
+                                <MDBCardLink href='https://github.com/MacaroniKetchup/Webdev-Remote-Job-Search-App'>Github</MDBCardLink>
+                                <MDBCardLink href='https://macaroniketchup.github.io/Webdev-Remote-Job-Search-App/'>Deployed App</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -83,8 +83,8 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     MERN Stack App using React, MongDB, Node.js, Express.js, and GraphQL API
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/anistone9/book-search-engine'>Github</MDBCardLink>
-                                <MDBCardLink href='#https://guarded-shelf-57906.herokuapp.com/'>Deployed App</MDBCardLink>
+                                <MDBCardLink href='https://github.com/anistone9/book-search-engine'>Github</MDBCardLink>
+                                <MDBCardLink href='https://guarded-shelf-57906.herokuapp.com/'>Deployed App</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -100,7 +100,7 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     Application using Express.js on the backend to write and save notes.
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/anistone9/note-taker'>Github</MDBCardLink>
+                                <MDBCardLink href='https://github.com/anistone9/note-taker'>Github</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -116,8 +116,8 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     Text Editor App built using Progressive Web Applications criteria, with offline functionality
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/anistone9/pwa-text-editor'>Github</MDBCardLink>
-                                <MDBCardLink href='#https://fathomless-peak-36309.herokuapp.com/'>Deployed App</MDBCardLink>
+                                <MDBCardLink href='https://github.com/anistone9/pwa-text-editor'>Github</MDBCardLink>
+                                <MDBCardLink href='https://fathomless-peak-36309.herokuapp.com/'>Deployed App</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -133,7 +133,7 @@ export default function Portfolio() {
                                 <MDBCardText>
                                     Backend created for a social network-style application. Created using Express.js, MongoDB, and Mongoose.
                                 </MDBCardText>
-                                <MDBCardLink href='#https://github.com/anistone9/social-network-api'>Github</MDBCardLink>
+                                <MDBCardLink href='https://github.com/anistone9/social-network-api'>Github</MDBCardLink>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>

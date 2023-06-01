@@ -1,0 +1,28 @@
+.navbar {
+    background: #343a40;
+    height: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: #f8f9fa;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+    text-align: right;
+}
+
+.navbar-text {
+    text-align: left;
+    font-size: 1.7rem;
+    margin-left: 15px;
+    line-height: 3;
+    color:cornflowerblue !important;
+    font-weight: bold;
+    margin-right: auto;
+}

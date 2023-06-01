@@ -52,6 +52,7 @@ function Form() {
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
     }
 
     return (
@@ -90,7 +91,6 @@ function Form() {
         </div>
     );
 };
-
 export default Form;
 
 

@@ -1,18 +1,24 @@
 import React from 'react';
-import '../styles/NavTabs.css';
+import '../styles/Navbar.css';
 
 const styles = {
   navtabsStyle: {
     background: 'primary',
-    justifyCenter: 'flex-left',
     justifyContent: 'flex-end',
   },
+  navHeading: {
+    justifyContent: 'flex-start',
+    textAlign: 'left',
+    color: 'f8f9fa'
+  }
 };
 
 // use object destructuring assignment to access the variables from the props object
-function NavTabs({ currentPage, handlePageChange }) {
-    return (
-        <ul className="nav navtabs" style={styles.navtabsStyle}>
+function Navbar({ currentPage, handlePageChange }) {
+  return (
+    <div>
+      <ul className="nav navbar" style={styles.navtabsStyle}>
+        <li className="navbar-text" style={styles.navHeading}>Ani Toal</li>
         <li className="nav-item">
           <a
             href="#about"
@@ -58,7 +64,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    );
+    </div>
+  );
 }
 
-export default NavTabs;
+export default Navbar;
