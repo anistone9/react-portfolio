@@ -15,8 +15,10 @@ import image2 from '../images/image2.png';
 import image3 from '../images/image3.png';
 import image5 from '../images/image5.png';
 import image6 from '../images/image6.png';
+import image7 from '../images/image7.png';
 import image11 from '../images/image11.png';
 import image42 from '../images/image42.png';
+import barkbuddy from '../images/barkbuddy.png';
 
 const styles = {
     heading: {
@@ -74,6 +76,23 @@ export default function Portfolio() {
                     <MDBCol>
                         <MDBCard className='h-100'>
                             <MDBCardImage
+                                src={image7}
+                                alt='bark buddy'
+                                position='top'
+                            />
+                            <MDBCardBody>
+                                <MDBCardTitle>Bark Buddy</MDBCardTitle>
+                                <MDBCardText>
+                                    Collaborative MERN-stack single-page application using MongoDB, GraphQL API, Express.js and Node.js server, with a React front end.
+                                </MDBCardText>
+                                <MDBCardLink href='https://github.com/123sites/bark-buddy'>Github</MDBCardLink>
+                                <MDBCardLink href='https://cf-bark-buddy.herokuapp.com/'>Deployed App</MDBCardLink>
+                            </MDBCardBody>
+                        </MDBCard>
+                    </MDBCol>
+                    <MDBCol>
+                        <MDBCard className='h-100'>
+                            <MDBCardImage
                                 src={image3}
                                 alt='book search'
                                 position='top'
@@ -121,22 +140,7 @@ export default function Portfolio() {
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
-                    <MDBCol>
-                        <MDBCard className='h-100'>
-                            <MDBCardImage
-                                src={image6}
-                                alt='social network'
-                                position='top'
-                            />
-                            <MDBCardBody>
-                                <MDBCardTitle>Social Network API</MDBCardTitle>
-                                <MDBCardText>
-                                    Backend created for a social network-style application. Created using Express.js, MongoDB, and Mongoose.
-                                </MDBCardText>
-                                <MDBCardLink href='https://github.com/anistone9/social-network-api'>Github</MDBCardLink>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
+                   
                 </MDBRow>
             </div>
         </div>
